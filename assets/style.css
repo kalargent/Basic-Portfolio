@@ -8,13 +8,23 @@
 
 .h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 .h2 {
-    color: black;
+    color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .para {
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; 
+    color: #777777;
+    padding-left: 100px;
+}
+
+#bio-image {
+    width: 225px;
+    height: 250px;
+    float: left;
+    padding-right: 20px;
 }
