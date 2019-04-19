@@ -1,3 +1,4 @@
+/* this is the header at the top of my page. it contains my name */
 .header {
     width: 200px;
     background-color: #4aaaa5;
@@ -6,22 +7,26 @@
     float: left;
 }
 
+/* h1 style, showing font family  */
 .h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 
+/* defines h2 styling */
 .h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* defines the paragraph styling, used on About Me page */
 .para {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; 
     color: #777777;
     padding-left: 100px;
 }
 
+/* ID for styling my bio image */
 #bio-image {
     width: 225px;
     height: 250px;
