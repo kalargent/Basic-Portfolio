@@ -81,3 +81,36 @@ h2 {
 p {
     color: #777777;
 }
+
+/* CONTACT FIELDS - NAME AND EMAIL  */
+
+.field-label {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; 
+    color: #777777
+}
+
+.field-label p {
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 5px; 
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 5px; 
+    margin: 0px;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+ textarea {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    margin: 0px 0;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 1px;
+  }
