@@ -114,3 +114,15 @@ input[type=text] {
     border-style: solid;
     border-width: 1px;
   }
+
+  .box-set {
+    height: 400px;
+    background: red;
+  }
+
+  .box {
+    width: 150px;
+    height: 150px;
+    background: #2db34a;
+    border: 2px solid black;
+  }
