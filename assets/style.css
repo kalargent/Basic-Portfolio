@@ -117,13 +117,13 @@ input[type=text] {
 
   .box-set {
     height: 400px;
-    background: red;
+    /* background: red; */
   }
 
   .box {
     width: 150px;
     height: 150px;
-    background: #2db34a;
+    /* background: #2db34a; */
     border: 2px solid black;
   }
 
@@ -143,10 +143,10 @@ input[type=text] {
 
   .box-4 {
     background: yellow;
-    background-image: url("../images/headphones.jpeg");
+    background-image: url("../images/cool-doge.jpeg");
 }
   
   .box-5 {
     background: yellow;
-    background-image: url("../images/headphones.jpeg");
+    background-image: url("../images/doug.jpeg");
   }
