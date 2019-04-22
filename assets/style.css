@@ -128,21 +128,25 @@ input[type=text] {
   }
 
   .box-1 {
-      background: gray;
-      background-image: url("../images/headphones.jpeg");  
+      background-image: url("../images/marnie2.jpeg");  
   }
 
   .box-2 {
       background: green;
-      background-image: url("../images/headphones.jpeg");
+      background-image: url("../images/bart.jpeg");
   }
 
   .box-3 {
     background: purple;
-    background-image: url("../images/headphones.jpeg");
+    background-image: url("../images/norbert.jpeg");
 }
 
-.box-4 {
+  .box-4 {
     background: yellow;
     background-image: url("../images/headphones.jpeg");
 }
+  
+  .box-5 {
+    background: yellow;
+    background-image: url("../images/headphones.jpeg");
+  }
