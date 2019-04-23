@@ -122,9 +122,9 @@ input[type=text] {
   .box-set {
     float: left;
     width: 100%;
-    /* height: 900px; */
+    height: 900px;
     max-width: 960px;
-    margin: 0 0 40px;
+    /* margin: 0 0 40px; */
     padding: 30px;
     /* background: red; */
   }
@@ -135,6 +135,7 @@ input[type=text] {
     height: 150px;
     border: 2px black; 
     float: left;
+    margin-bottom: 30px;
     /* display: inline; */
   }
 
@@ -145,9 +146,15 @@ input[type=text] {
 
   /* SMALL BOX PROPERTIES */
   .small-box {
-    width: 150px;
+    position: relative;
+    bottom: 50px;
+    width: 146px;
     height: 40px;
     background: #4aaaa5;
+    z-index: 1; 
+    color: white;
+    text-align: center;
+    padding: 10px
   }
 
 
