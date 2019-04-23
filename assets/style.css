@@ -25,13 +25,17 @@ body {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+}
 
+/* THIS IS HORIZONTAL RULE ON EACH PAGE */
+.horizontal-rule {
+    color: red; 
 }
 
 /* CONTENT AREA  */
 .content-area {
     width: 960px;
-    /* height: auto; */
+    height: 10000;
     background: #ffffff;
     margin-left: auto;
     margin-right: auto;
@@ -164,6 +168,11 @@ input[type=text] {
     font-family: 'Georgia', Times, Times New Roman, serif;
   }
 
+  /* FOOTER */ 
+  .footer {
+    background: #666666;
+    color: #fff;
+  }
 
 /* THINGS I MADE BUT AM NOT USING */
   /* .box-1 {
