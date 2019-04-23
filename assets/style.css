@@ -124,7 +124,7 @@ input[type=text] {
     width: 150px;
     height: 150px;
     border: 2px black; 
-    /* display: inline */
+    /* display: inline; */
   }
 
   .box img {
