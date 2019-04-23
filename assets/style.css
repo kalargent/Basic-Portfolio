@@ -131,30 +131,33 @@ input[type=text] {
 
   /* BOX PROPERTIES */
   .box {
-    width: 290px;
-    height: 150px;
+    width: 294px;
+    height: 221px;
     border: 2px black; 
     float: left;
     margin-bottom: 30px;
+    margin-right: 30px;
     /* display: inline; */
   }
 
   /* DETERMINES THE SIZE OF THE IMAGES WITHIN THE BOXES */
   .box img {
-    width:146px; height: 146px;
+    width: 290px;
+    height: 217px;
   }
 
   /* SMALL BOX PROPERTIES */
   .small-box {
     position: relative;
     bottom: 50px;
-    width: 146px;
+    width: 290px;
     height: 40px;
     background: #4aaaa5;
     z-index: 1; 
     color: white;
     text-align: center;
     padding: 10px
+  
   }
 
 
