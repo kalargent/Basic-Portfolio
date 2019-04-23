@@ -144,20 +144,24 @@ input[type=text] {
   .box img {
     width: 290px;
     height: 217px;
+    border: 2px solid #dddddd;
   }
 
   /* SMALL BOX PROPERTIES */
   .small-box {
     position: relative;
-    bottom: 50px;
-    width: 290px;
-    height: 40px;
+    top: 210px;
+    /* bottom: -50px; */
+    /* width: 288px; */
+    margin-left: 2px;
+    margin-right: 6px;
+    /* height: 40px; */
     background: #4aaaa5;
     z-index: 1; 
     color: white;
     text-align: center;
-    padding: 10px
-  
+    padding: 15px; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
   }
 
 
