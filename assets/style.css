@@ -88,10 +88,17 @@ h2 {
 /* BIO IMAGE */
 #bio-image {
     width: 250px;
-    height: 225px;
     float: left;
     padding-right: 20px;
 }
+
+/* ALT IMAGE */
+#alt-image {
+  width: 250px;
+  float: right;
+  /* padding-right: 20px; */
+}
+
 
 /* PARAGRAPH */
 p {
