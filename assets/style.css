@@ -45,7 +45,7 @@ hr {
 /* CONTENT AREA  */
 .content-area {
     width: 960px;
-    height: 10000;
+    /* height: 10000; */
     background: #ffffff;
     margin-left: auto;
     margin-right: auto;
