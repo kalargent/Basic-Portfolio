@@ -8,10 +8,12 @@ body {
     /* padding: 20px;  */
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("../images/subtle_grunge.png"); 
-    /* color: #7777777;  */
+    color: #777777; 
     /* font-size: 24px;
     line-height: 32px;  */
     margin: 0 auto;
+    /* comment this next line out to make it look like the description from homework. leave it uncommented for stickiness */
+    margin-bottom: 40px;
     padding: 0;
     /* position: relative;
     min-height: 100%; */
@@ -20,18 +22,24 @@ body {
 /* MAIN HEADER */
 #header-container {
     background: #ffffff;
+    border-bottom: 1px solid #ccc;
 }
 
 #header-content {
-    border: #cccccc;
+    /* border: #cccccc; */
     width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* THIS IS HORIZONTAL RULE ON EACH PAGE */
-.horizontal-rule {
-    color: red; 
+hr { 
+    /* display: block; 
+    height: 1px;
+    border: 0;  */
+    border-top: 1px solid #cccccc;
+    /* margin: 1em 0; 
+    padding: 0; */
 }
 
 /* CONTENT AREA  */
@@ -43,6 +51,7 @@ body {
     margin-right: auto;
     margin-top:20px;
     padding: 20px;
+    border: 1px solid #ddd;
 }
 
 
@@ -127,13 +136,12 @@ input[type=text] {
 
   /* CONTAINER FOR THE IMAGE BOXES */
   .box-set {
-    float: left;
-    width: 100%;
-    height: 100%;
-    max-width: 960px;
+    /* float: left; */
+    /* width: 100%;
+    height: 100%; */
     /* margin: 0 0 40px; */
     padding: 30px;
-    background: red;
+    background: #fff;
   }
 
   /* BOX PROPERTIES */
@@ -154,6 +162,10 @@ input[type=text] {
     border: 2px solid #dddddd;
   }
 
+  br.clear {
+    clear: both;
+  }
+
   /* SMALL BOX PROPERTIES */
   .small-box {
     position: relative;
@@ -164,7 +176,7 @@ input[type=text] {
     margin-right: 6px;
     /* height: 40px; */
     background: #4aaaa5;
-    z-index: 1; 
+    /* z-index: 1;  */
     color: white;
     text-align: center;
     padding: 15px; 
@@ -172,16 +184,21 @@ input[type=text] {
   }
 
   /* FOOTER  */
-  .footer {
+  footer {
+    /* comment out position fixed if you want to make it look like the homework description, leave it in for stickiness */ 
     position: fixed;
     bottom: 0;  
-    margin-bottom: 0;
     width: 100%;
     height: 40px;
-    text-align: center;
     padding: 10px;
     background: #666666;
+    
+  }
+
+  footer p {
+    text-align: center;
     color: #fff;
+    margin: 0;
   }
 
 
